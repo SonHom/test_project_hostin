@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item:hover{
+    background-color: rgb(10, 187, 241);
+    box-shadow: 0 0 2px 2px rgb(10, 187, 241);
+}
+/* ===== */
+.login-container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.login-form-1{
+  padding: 5%;
+  background-color: white;
+}
+#form-shadow{
+  margin-left: 5px;
+  box-shadow: 0 0 5px 1px  rgba(0, 0, 0, 0.5);
+}
+.login-form-1 h3{
+  text-align: center;
+  color: #333;
+}
+.login-container form{
+  padding: 10%;
+}
+.col-md-6{
+  padding-left: 0px;
+
+}
+.btnSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+  font-weight: 600;
+  color: #fff;
+  background-color: #0062cc;
+}
+
+.login-form-1 .ForgetPwd{
+  color: #0062cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* ==== */
+  #accept, #reject {
+    border-radius: 10px;
+    padding:1px;
+    width: 85px;
+  }
+  #reject{
+    border:1px solid rgb(165, 163, 163);
+  }
+#label{
+  display: flex;
+  justify-content: flex-start;
+}
+#date{
+  margin-right: 354.5px;
+}
+.added{
+  background-color: white;
+  border: none;
+}
+.errorText{
+  display: flex;
+  justify-content: flex-start;
+}
+.errors li{
+  list-style-type: none;
+  width: 100%;
+}
+.errors ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.edit_hover_class a{
+  visibility:hidden;
+}
+.edit_hover_class:hover a {
+  visibility:visible;
+}
+
+
